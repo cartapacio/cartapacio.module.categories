@@ -1,0 +1,23 @@
+{
+  "name": "cartapacio.module.categories",
+  "version": "0.1.0",
+  "description": "create and edit categories",
+  "main": "router.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cartapacio/cartapacio.module.categories.git"
+  },
+  "keywords": [
+    "admin",
+    "backbone"
+  ],
+  "author": "Gabriel Zea <zea@gbrl.in> (http://gbrl.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cartapacio/cartapacio.module.categories/issues"
+  },
+  "homepage": "https://github.com/cartapacio/cartapacio.module.categories"
+}

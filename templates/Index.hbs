@@ -1,0 +1,24 @@
+<div class="col-md-12 categories">
+  <div class="col-md-2">
+    <h4><i class="fa fa-umbrella"></i> categories</h4>
+    <div id="new" class="new"><i class="fa fa-plus-square-o"></i></div>
+  </div>
+    <div class="col-md-10 right">
+      <ul id="item-list">
+        {{#each models}}
+          <li id="{{this.id}}">
+            <span class="item-title">
+              <a class="detail" data-id="{{this.id}}" href="#">{{this.attributes.name_es}}</a>
+            </span>
+
+            <span class="delete" data-id="{{this.id}}">
+              <i class="fa fa-eraser"></i>
+            </span>
+
+            <span class="move"> <i class="fa fa-arrows-v"></i></span>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
